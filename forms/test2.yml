@@ -1,15 +1,18 @@
 ---
-- name: Git example
+- name: Git other example
   type: ansible
   playbook: dummy.yaml
   description: ""
   roles:
     - public
   categories: 
-    - Default
+    - Other
   tileClass: has-background-info-light
-  icon: bullseye
+  icon: bomb
   fields:
     - name: field1
       type: text
       label: field1
+    - name: field2
+      type: text
+      label: field2

@@ -6,7 +6,7 @@
   roles:
     - public
   categories: 
-    - Other
+    - Default
   tileClass: has-background-info-light
   icon: bomb
   fields:
